@@ -10,7 +10,6 @@ public class Main {
         Pro29 pro29 = new Pro29();
         arrayanswer(pro29.solution(ints));
         arrayanswer(ints);
-
     }
 
     public static void arrayanswer(int[] arr) {
