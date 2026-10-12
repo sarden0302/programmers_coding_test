@@ -1,5 +1,6 @@
 import level1.Pro28;
 import level1.Pro29;
+import level1.Pro9;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -10,6 +11,8 @@ public class Main {
 
         Pro28 pro28 = new Pro28();
         System.out.println(pro28.solution(ints));
+        Pro9 pro9 = new Pro9();
+        System.out.println("Pro 9 : " + pro9.solution(8));
     }
 
     public static void arrayanswer(int[] arr) {
