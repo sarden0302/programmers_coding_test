@@ -28,4 +28,8 @@ public class Main {
         sb.append("]");
         System.out.println(sb);
     }
+
+    public String hello() {
+        return "Hello Git";
+    }
 }
