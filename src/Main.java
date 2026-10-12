@@ -1,3 +1,4 @@
+import level1.Pro28;
 import level1.Pro29;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -5,11 +6,10 @@ import level1.Pro29;
 public class Main {
     public static void main(String[] args) {
 
-        int[] ints = {1, 2};
+        int[] ints = {1, 2, 3, 4, 6, 7, 8, 0};
 
-        Pro29 pro29 = new Pro29();
-        arrayanswer(pro29.solution(ints));
-        arrayanswer(ints);
+        Pro28 pro28 = new Pro28();
+        System.out.println(pro28.solution(ints));
     }
 
     public static void arrayanswer(int[] arr) {
