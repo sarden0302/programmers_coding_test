@@ -1,3 +1,4 @@
+import level1.Pro16;
 import level1.Pro28;
 import level1.Pro29;
 import level1.Pro9;
@@ -7,12 +8,9 @@ import level1.Pro9;
 public class Main {
     public static void main(String[] args) {
 
-        int[] ints = {1, 2, 3, 4, 6, 7, 8, 0};
+        Pro16 pro16 = new Pro16();
 
-        Pro28 pro28 = new Pro28();
-        System.out.println(pro28.solution(ints));
-        Pro9 pro9 = new Pro9();
-        System.out.println("Pro 9 : " + pro9.solution(8));
+        System.out.println(pro16.solution(5, 5));
     }
 
     public static void arrayanswer(int[] arr) {
