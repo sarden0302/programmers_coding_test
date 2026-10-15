@@ -1,5 +1,6 @@
 package level2;
 
+// 수박수박수박수박수박수?
 public class Pro31 {
     public String solution(int n) {
         StringBuffer  sb = new StringBuffer();
