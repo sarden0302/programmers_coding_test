@@ -2,15 +2,17 @@ import level1.Pro16;
 import level1.Pro28;
 import level1.Pro29;
 import level1.Pro9;
+import level2.Pro32;
+import level2.Pro33;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
 
-        Pro16 pro16 = new Pro16();
-
-        System.out.println(pro16.solution(5, 5));
+        Pro33 pro33 = new Pro33();
+        int answer33 = pro33.solution(24, 27);
+        System.out.println("answer33 is " + answer33);
     }
 
     public static void arrayanswer(int[] arr) {
