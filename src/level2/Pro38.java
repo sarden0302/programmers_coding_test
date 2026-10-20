@@ -1,6 +1,7 @@
 package level2;
 
 import java.util.Scanner;
+import java.util.stream.IntStream;
 
 public class Pro38 {
     public static void main(String[] args) {
@@ -9,13 +10,7 @@ public class Pro38 {
         int b = sc.nextInt();
 
         StringBuilder sb = new StringBuilder();
-        for (int i = 0; i < b; i++) {
-            for (int j = 0; j < a; j++) {
-                sb.append("*");
-            }
-            sb.append("\n");
-        }
-
-        System.out.println(sb);
+        IntStream.range(0, a).forEach(s -> sb.append("*"));
+        IntStream.range(0, b).forEach(s -> System.out.println(sb.toString()));
     }
 }
