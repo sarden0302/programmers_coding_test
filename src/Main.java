@@ -1,12 +1,13 @@
 import level2.Pro34;
+import level2.Pro35;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
+        Pro35 pro35 = new Pro35();
 
-        Pro34 pro34 = new Pro34();
-        System.out.println(pro34.solution("Zbcdefg"));
+        System.out.println(pro35.solution(3, 200, 4));
     }
 
     public static void arrayanswer(int[] arr) {
