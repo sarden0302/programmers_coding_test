@@ -1,13 +1,16 @@
 import level2.Pro34;
 import level2.Pro35;
+import level2.Pro39;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        Pro35 pro35 = new Pro35();
-
-        System.out.println(pro35.solution(3, 200, 4));
+        Pro39 pro39 = new Pro39();
+        int[] pro39Answer = pro39.solution(3, 12);
+        System.out.println("3, 12 -> lcm : " + pro39Answer[0] + ", gcd : " +  pro39Answer[1]);
+        int[] pro39Answer2 = pro39.solution(1, 10);
+        System.out.println("1, 10 -> lcm : " + pro39Answer2[0] + ", gcd : " +  pro39Answer2[1]);
     }
 
     public static void arrayanswer(int[] arr) {
