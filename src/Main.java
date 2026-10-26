@@ -3,16 +3,15 @@ import level2.Pro35;
 import level2.Pro39;
 import level3.Pro43;
 import level3.Pro44;
+import level3.Pro45;
+import level3.Pro46;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        Pro44 pro44 = new Pro44();
-
-        int[][] sizes = {{60, 50}, {30, 70}, {60, 30}, {80, 40}};
-
-        System.out.println(pro44.solution(sizes));
+        Pro46 pro46 = new Pro46();
+        System.out.println(pro46.solution("123one456"));
     }
 
     public static void arrayanswer(int[] arr) {
