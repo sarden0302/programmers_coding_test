@@ -1,5 +1,6 @@
 package level2;
 
+// 문자열 다루기 기본
 public class Pro36 {
     public boolean solution(String s) {
         if (s.length() != 4 && s.length() != 6) {

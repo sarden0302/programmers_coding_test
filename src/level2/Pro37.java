@@ -1,5 +1,6 @@
 package level2;
 
+// 행렬의 덧셈
 public class Pro37 {
     public int[][] solution(int[][] arr1, int[][] arr2) {
         int[][] answer = new int[arr1.length][arr1[0].length];

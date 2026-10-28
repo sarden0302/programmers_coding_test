@@ -1,5 +1,6 @@
 package level2;
 
+// 최대공약수와 최소공배수
 public class Pro39 {
     public int[] solution(int n, int m) {
             int[] answer = new int[2];

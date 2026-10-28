@@ -3,6 +3,7 @@ package level2;
 import java.util.Scanner;
 import java.util.stream.IntStream;
 
+// 직사각형 별찍기
 public class Pro38 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

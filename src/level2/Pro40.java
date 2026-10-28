@@ -1,5 +1,6 @@
 package level2;
 
+// 3진법 뒤집기
 public class Pro40 {
     public int solution(int n) {
         // 1. n을 3진법 문자열로 변환 (역순으로 들어감)
