@@ -1,5 +1,6 @@
 package level3;
 
+// 삼총사
 public class Pro42 {
     public int solution(int[] number) {
         int answer = 0;

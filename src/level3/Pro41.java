@@ -1,5 +1,6 @@
 package level3;
 
+// 이상한 문자 만들기
 public class Pro41 {
     public String solution(String s) {
         StringBuilder answer = new StringBuilder();

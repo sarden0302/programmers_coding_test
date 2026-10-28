@@ -1,5 +1,6 @@
 package level3;
 
+// 시저 암호
 public class Pro45 {
     public String solution(String s, int n) {
         String result = "";

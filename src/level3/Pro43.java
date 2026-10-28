@@ -1,5 +1,6 @@
 package level3;
 
+// 크기가 작은 부분
 public class Pro43 {
     public int solution(String t, String p) {
         long pNum = Long.parseLong(p);

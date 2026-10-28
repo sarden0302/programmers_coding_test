@@ -2,6 +2,7 @@ package level3;
 
 import java.util.Arrays;
 
+// 최소 직사각형
 public class Pro44 {
     public long solution(int[][] sizes) {
         int length = 0, height = 0;
