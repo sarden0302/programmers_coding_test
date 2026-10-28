@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+// 나누어 떨어지는 숫자
 public class Pro25 {
     public int[] solution(int[] arr, int divisor) {
         int[] answer = Arrays.stream(arr).filter(factor -> factor % divisor == 0).toArray();

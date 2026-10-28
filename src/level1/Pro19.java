@@ -1,5 +1,6 @@
 package level1;
 
+// 정수 제곱근 판별
 public class Pro19 {
     public long solution(long n) {
         long answer = 0;

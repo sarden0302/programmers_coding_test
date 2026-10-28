@@ -1,5 +1,6 @@
 package level1;
 
+// 각도기
 public class Pro8 {
     public int solution(int angle) {
         if (angle > 0 && angle < 90) {

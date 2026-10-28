@@ -1,5 +1,6 @@
 package level1;
 
+// 서울에서 김서방 찾기
 public class Pro24 {
     public String solution(String[] seoul) {
         for (int i = 0; i < seoul.length; i++) {

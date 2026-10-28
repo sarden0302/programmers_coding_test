@@ -1,5 +1,6 @@
 package level1;
 
+// 제일 작은 수 제거하기
 public class Pro29 {
     public int[] solution(int[] arr) {
 

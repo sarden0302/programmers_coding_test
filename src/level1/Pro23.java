@@ -1,5 +1,6 @@
 package level1;
 
+// 콜라츠 추측
 public class Pro23 {
     public long solution(long num) {
         int answer = 0;

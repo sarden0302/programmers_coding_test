@@ -1,5 +1,6 @@
 package level1;
 
+// 약수의 합
 public class Pro14 {
     public int solution(int n) {
         int answer = 0;

@@ -1,5 +1,6 @@
 package level1;
 
+// 두 정수 사이의 합
 public class Pro22 {
     public long solution(int a, int b) {
         return sumAtoB(Math.min(a, b), Math.max(b, a));

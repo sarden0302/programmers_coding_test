@@ -1,5 +1,6 @@
 package level1;
 
+// 핸드폰 번호 가리기
 public class Pro27 {
     public String solution(String phone_number) {
         int size = phone_number.length();
