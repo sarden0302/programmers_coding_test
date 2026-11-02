@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Pro50 {
+    // 다른 사람의 풀이
     public int[] solution(String s) {
         Map<Character, Integer> map = new HashMap<>();
         int[] answer = new int[s.length()];
