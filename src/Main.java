@@ -9,8 +9,13 @@ import java.util.Arrays;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        Pro48 pro48 = new Pro48();
-        System.out.println(Arrays.toString(pro48.solution(new int[]{1, 5, 2, 6, 3, 7, 4}, new int[][]{{2, 5, 3}, {4, 4, 1}, {1, 7, 3}})));
+        Pro50 pro50 = new Pro50();
+
+
+
+        System.out.println(Arrays.toString(pro50.solution("banana")));
+        System.out.println(Arrays.toString(pro50.solution("foobar")));
+
     }
 
     public static void arrayanswer(int[] arr) {
