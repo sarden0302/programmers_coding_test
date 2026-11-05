@@ -3,13 +3,13 @@ package level3;
 import java.util.HashMap;
 import java.util.Map;
 
+// 다른 사람의 풀이
 public class Pro50 {
-    // 다른 사람의 풀이
     public int[] solution(String s) {
         Map<Character, Integer> map = new HashMap<>();
         int[] answer = new int[s.length()];
 
-        for(int i = 0 ; i < s.length(); i++) {
+        for (int i = 0; i < s.length(); i++) {
             if (!map.containsKey(s.charAt(i))) {
                 map.put(s.charAt(i), i);
                 answer[i] = -1;
